@@ -7,6 +7,19 @@ description: "Bridging simulation-to-real workflows with Isaac Sim, Omniverse, a
 page-layout: article
 title-block-banner: true
 toc: false
+comments: false
+# comments:
+#     giscus:
+#       repo: "renanmb/boredengineer-quarto-website-test"      # Replace with your data-repo
+#       repo-id: "R_kgDORin_Zw"                # Replace with your data-repo-id
+#       category: "Polls"            # Replace with your data-category
+#       # category-id: "DIC_kwDORin_Z84C4YyP"            # Replace with your data-category-id
+#       mapping: "number"                    # Tells Giscus to look for a specific discussion ID
+#       term: "2"                           # The discussion number from Step 1
+#       reactions-enabled: false
+#       input-position: "bottom"
+#       theme: "dark_high_contrast"                       # Other options: dark, preferred_color_scheme, dark_high_contrast
+#       loading: "lazy"
 format:
   html:
     include-in-header:
@@ -290,6 +303,21 @@ Simply click the button below or search for my handle directly on Venmo.
 ::: {.glass-container}
 ## Impact Roadmap
 
+<script src="https://giscus.app/client.js"
+        data-repo="renanmb/boredengineer-quarto-website-test"
+        data-repo-id="R_kgDORin_Zw"
+        data-mapping="number"
+        data-term="2"
+        data-reactions-enabled="0"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
 ::: {.callout-note appearance="simple"}
 ## What Your Funds Enable
 - **$10:** One day of cloud GPU training time.
@@ -304,6 +332,8 @@ I'm currently working on a **Sim-to-Real** series focusing on training quadruped
 ::: {.glass-card}
 ### Thank You!
 *Your support keeps the **"Bored Engineer"** from actually being bored --- and instead, keeps the robots moving.*
+
+![This is my animated chart](files/gifs/poor-robot_v5.gif)
 
 <div style="margin-top: 20px;">
 [Back to Projects](projects.qmd){.btn .btn-outline-secondary} [Check the Blog](blog.qmd){.btn .btn-outline-secondary}
