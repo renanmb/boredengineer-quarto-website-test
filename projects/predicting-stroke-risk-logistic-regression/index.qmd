@@ -86,9 +86,9 @@ Import all the dependencies:
 #| output: false
 
 packages <- c("dplyr", "car", "ResourceSelection", "caret", "pROC",  "logistf", "Hmisc", "rcompanion", "ggplot2", "summarytools", "tidyverse", "knitr", "ggpubr", "ggcorrplot", "randomForest", "gbm", "kernlab", "skimr", "corrplot", "scales", "tidyr", "RColorBrewer", "mice", "ROSE", "ranger", "stacks", "tidymodels", "themis", "gghighlight")
-install.packages(packages)
+# install.packages(packages)
 # Load Libraries
-# lapply(packages, library, character.only = TRUE)
+lapply(packages, library, character.only = TRUE)
 # Set seed for reproducibility
 set.seed(123)
 ```
