@@ -307,6 +307,27 @@ Currently hold hands-on workshops at **Panera Bread** every other week: [Gatheri
 
 Unused Hardware (after project completion) are given away to help students and cloud credits lower the barrier of entry.
 
+::: {.bento-wrapper}
+
+::: {.bento-item .tall}
+![](files/images/panera01.jpg)
+:::
+
+::: {.bento-item .wide}
+![](files/images/panera03.jpg)
+:::
+
+::: {.bento-item .tall}
+![](files/images/panera02.jpg)
+:::
+
+::: {.bento-item .wide}
+![](files/images/panera04.jpg)
+:::
+
+:::
+
+
 ## What's Coming Next?
 I'm currently working on a **Sim-to-Real** series focusing on training quadrupedal locomotion entirely in Isaac Sim and deploying to hardware. Your support helps buy the physical components needed for this deployment!
 
