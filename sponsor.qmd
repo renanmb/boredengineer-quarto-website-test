@@ -309,19 +309,19 @@ Unused Hardware (after project completion) are given away to help students and c
 
 ::: {.bento-wrapper}
 
-::: {.bento-item .tall}
+::: {.bento-item .tall-left}
 ![](files/images/panera01.jpg)
 :::
 
-::: {.bento-item .wide}
+::: {.bento-item .wide-top}
 ![](files/images/panera03.jpg)
 :::
 
-::: {.bento-item .tall}
+::: {.bento-item .tall-right}
 ![](files/images/panera02.jpg)
 :::
 
-::: {.bento-item .wide}
+::: {.bento-item .wide-bottom}
 ![](files/images/panera04.jpg)
 :::
 
