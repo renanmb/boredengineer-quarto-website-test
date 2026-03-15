@@ -291,6 +291,8 @@ Simply click the button below or search for my handle directly on Venmo.
 ::: {.glass-container}
 ## Impact Roadmap
 
+The idea is to raise funds until there is enough to do an End-to-End project.
+
 ::: {.callout-note appearance="simple"}
 ## What Your Funds Enable for example:
 - **$6:** One hour of cloud GPU on single L40S [g6e.8xlarge](https://instances.vantage.sh/aws/ec2/g6e.8xlarge?currency=USD).
@@ -329,7 +331,19 @@ Unused Hardware (after project completion) are given away to help students and c
 
 
 ## What's Coming Next?
-I'm currently working on a **Sim-to-Real** series focusing on training quadrupedal locomotion entirely in Isaac Sim and deploying to hardware. Your support helps buy the physical components needed for this deployment!
+
+I'm currently working on my trip to [GTC 2026](https://www.nvidia.com/gtc/)
+
+The idea is to make an open Poll plus a discussion forum so we can plan together and vote on which projects to piroritize.
+
+Some projects can be very demanding, for example: 
+
+- Making a decent VLA project that goes beyond the demos, lets say, replace the backbone VLM model and implement a new skill (within model capability) can take 2-3 weeks and cost around **$300 - $500** in cloud computing assuming everything goes according to plan.
+- **Sim2Real** projects involve hardware and are naturally more expensive.
+
+![](files/images/caution_under_construction-removebg.png){fig-align="center" width="300px"}
+
+Experimental Poll features:
 
 <a href="https://github.com/renanmb/boredengineer-quarto-website-test/discussions/2" target="_blank">
   <button style="background-color: #2ea44f; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
