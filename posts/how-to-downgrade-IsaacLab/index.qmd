@@ -1,6 +1,6 @@
 ---
 title: "How to Downgrade IsaacLab"
-subtitle: "A quick look at the depencies and issues that arrise from downgrading IsaacLAb"
+subtitle: "A quick look at the depencies and issues that arrise from downgrading IsaacLab"
 author:
   - name: Renan Monteiro Barbosa
 categories: [Nvidia, IsaacLab]
@@ -11,7 +11,7 @@ link-citations: true
 ---
 
 
-![](/files/images/caution_under_construction-removebg.png)
+![](/files/images/groot-practitioner.jpg)
 
 Why would you need to downgrade IsaacLab @mittal2025isaaclab ? 
 
@@ -47,10 +47,8 @@ To check on the rsl-rl version:
 pip show rsl-rl-lib
 ```
 
-There are massive changes after the rsl-rl 
+There are massive changes from the rsl-rl version 3.1.2 to later version 5.0.1
 
-Version: 5.0.1
-Version: 3.1.2
 
 
 ## References
