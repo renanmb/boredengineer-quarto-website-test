@@ -1,0 +1,59 @@
+---
+title: "How to Downgrade IsaacLab"
+subtitle: "A quick look at the depencies and issues that arrise from downgrading IsaacLAb"
+author:
+  - name: Renan Monteiro Barbosa
+categories: [Nvidia, IsaacLab]
+draft: false
+bibliography: references.bib
+link-citations: true
+# csl: apa-numeric-superscript-brackets.csl
+---
+
+
+![](/files/images/caution_under_construction-removebg.png)
+
+Why would you need to downgrade IsaacLab @mittal2025isaaclab ? 
+
+Some projects depend on several dependencies that are no longer supported on the newer versions of IsaacLab. For example, due to massive changes done to rsl-rl after version 3.1.2 you might need to downgrade since its too hard to migrate and in some cases might be impossible.
+
+# Introduction
+
+If you tried to downgrade IsaacLab to version **v2.3.2** and had the issue:
+
+```IsaacLab Module not found```
+
+This is due issues with the ```flatdict``` and the changes in support for several packages
+
+[[Bug Report] flatdict can't be install for python3.11 because lack of pkg_resources in setuptools #4577](https://github.com/isaac-sim/IsaacLab/issues/4577)
+
+To fix the issue run the following:
+
+```bash
+# Downgrade the following
+pip install pip==23
+pip install setuptools==65
+pip install flatdict
+
+# Run isaaclab imstall
+./isaaclab.sh --install
+```
+
+Make sure these packages are on the proper version so the Isaaclab works again.
+
+To check on the rsl-rl version:
+
+```bash
+pip show rsl-rl-lib
+```
+
+There are massive changes after the rsl-rl 
+
+Version: 5.0.1
+Version: 3.1.2
+
+
+## References
+
+::: {#refs}
+:::
