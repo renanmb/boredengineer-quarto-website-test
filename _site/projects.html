@@ -563,7 +563,7 @@ Stroke is one of the leading causes of death and disability worldwide and remain
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="RGF0YS1TY2llbmNl" data-listing-file-modified-sort="1774903469817" data-listing-reading-time-sort="9" data-listing-word-count-sort="1640">
+<div class="g-col-1" data-index="1" data-categories="RGF0YS1TY2llbmNl" data-listing-file-modified-sort="1775076994019" data-listing-reading-time-sort="9" data-listing-word-count-sort="1664">
 <a href="./projects/Power-Grid-Vulnerability-Analysis-A-Complex-Network-Story/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="projects/Power-Grid-Vulnerability-Analysis-A-Complex-Network-Story/images/power_grid01.jpg" style="height: 300px;"  class="thumbnail-image card-img"/></p>
@@ -692,7 +692,7 @@ Load the required packages
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/renanmb\.github\.io\/boredengineer-quarto-website-test\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
